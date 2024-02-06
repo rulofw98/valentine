@@ -78,8 +78,8 @@ body{
 }
 
 
-.footer{
-    position: absolute;
+.footer {
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: gray;
@@ -87,5 +87,5 @@ body{
     text-align: center;
     color: white;
     font-size: 1.4rem;
-    
 }
+
