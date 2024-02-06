@@ -56,9 +56,9 @@ function generateMessage(){
 
 function changeImage(imageIndex){
     if (imageIndex === "yes") {
-        catImg.src = './dist/img/cat-yes.jpg'; // Cambia la imagen según el caso "yes"
+        catImg.src = './dist/img/cat-yes.jpg'; 
     } else {
-        catImg.src = `./dist/img/cat-${imageIndex}.jpg`; // Cambia la imagen según el índice
+        catImg.src = `./dist/img/cat-${imageIndex}.jpg`; 
     }
 }
 
